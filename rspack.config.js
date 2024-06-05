@@ -94,17 +94,17 @@ module.exports = {
 				descriptionData: {
 					// 1. this works
 					// version: (versionData) => {
-					// 	console.log("🚀 ~ file: rspack.config.js:96 ~ descriptionData:version", versionData);
+					// 	console.log("🚀 ~ file: rspack.config.js:97 ~ descriptionData:version", versionData);
 					// 	return true;
 					// },
 					// 2. this doesn't work
 					// componentId: (componentIdData) => {
-					// 	console.log("🚀 ~ file: rspack.config.js:96 ~ descriptionData:componentId", componentIdData);
+					// 	console.log("🚀 ~ file: rspack.config.js:102 ~ descriptionData:componentId", componentIdData);
 					// 	return true;
 					// },
 					// 3. this doesn't work
 					"_custom_key": (customKeyData) => {
-						console.log("🚀 ~ file: rspack.config.js:96 ~ descriptionData:_custom_key", customKeyData);
+						console.log("🚀 ~ file: rspack.config.js:107 ~ descriptionData:_custom_key", customKeyData);
 						return true;
 					}
 				},

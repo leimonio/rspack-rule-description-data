@@ -6,7 +6,7 @@
     "dev": "NODE_ENV=development rspack serve",
     "build": "NODE_ENV=production rspack build"
   },
-  "_cutom_key": true,
+  "_custom_key": true,
   "componentId": {
     "scope": "bitdev.react",
     "name": "examples/button",
